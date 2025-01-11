@@ -1,24 +1,17 @@
-# Análise de Dados com Machine Learning
+# Análise de Atrasos de Voos com Machine Learning
 
-Este projeto tem como objetivo a análise de dados utilizando técnicas de aprendizado de máquina para extrair informações e padrões valiosos. O foco é aplicar modelos de machine learning para resolver os problemas práticos, como previsão, classificação e análise exploratória de dados.
+Este projeto utiliza aprendizado de máquina para prever se um voo será atrasado com base em dados históricos. A análise envolve a preparação de dados, construção de modelos de machine learning e avaliação da performance desses modelos.
 
 ## Objetivo
 
-O projeto busca aplicar técnicas de aprendizado supervisionado e não supervisionado em um conjunto de dados real para construir modelos preditivos e explorar padrões ocultos nos dados.
-
-## Funcionalidades
-
-- Análise exploratória de dados (EDA)
-- Pré-processamento de dados (tratamento de valores nulos, normalização, etc.)
-- Construção e treinamento de modelos de machine learning (como regressão, classificação, clustering, etc.)
-- Avaliação e validação de modelos
-- Visualização de resultados e insights
+O objetivo deste projeto é prever se um voo irá atrasar 15 minutos ou mais (indicador `ARR_DEL15`), utilizando informações como o mês, o dia da semana, o horário de partida, o aeroporto de origem e o de destino. O modelo de machine learning utilizado é um **Random Forest Classifier**.
 
 ## Tecnologias Utilizadas
 
 - **Python**: Linguagem principal do projeto.
 - **Pandas**: Manipulação e análise de dados.
 - **NumPy**: Operações matemáticas e manipulação de arrays.
-- **Scikit-learn**: Implementação de modelos de machine learning.
+- **Scikit-learn**: Implementação de modelos de machine learning e avaliação de performance.
 - **Matplotlib** e **Seaborn**: Visualização de dados.
 - **Jupyter Notebook**: Ambiente para execução do código e documentação.
+- **Curl**: Baixar o dataset de forma automatizada.
